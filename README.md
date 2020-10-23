@@ -35,7 +35,7 @@ val idCard = "130802198108204219"
 idCard alias "身份证号" must beIdCard
 ```
 
-使用doCheck方法做校验
+使用doCheck方法做校验（Java友好的API）
 ```kotlin
 val idCard = "130802198108204219"
 doCheck(idCard, "身份证号", beIdCard)
