@@ -1,10 +1,27 @@
 # agile4j-check
 校验器
 
+   * [如何引入](#如何引入)
    * [特性总览](#特性总览)
    * [使用示例](#使用示例)
 
 
+# 如何引入
+
+>Gradle
+```groovy
+dependencies {
+    compile "com.agile4j:agile4j-check:1.0.0"
+}
+```
+>Maven
+```xml
+<dependency>
+    <groupId>com.agile4j</groupId>
+    <artifactId>agile4j-check</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
 ## 特性总览
 
